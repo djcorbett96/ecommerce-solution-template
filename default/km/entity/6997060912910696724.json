@@ -1,0 +1,12 @@
+{
+  "$id": "6997060912910696724",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "yext/answer": "Explanation for making a return here!",
+    "yext/name": "How do I make a return?",
+    "yext/question": "How do I make a return?"
+  },
+  "entityType": "yext/faq",
+  "labels": []
+}

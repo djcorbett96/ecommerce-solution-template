@@ -1,0 +1,12 @@
+{
+  "$id": "5116620146371760062",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "yext/answer": "Yes, we offer free shipping on all orders within the US!",
+    "yext/name": "Do you offer free shipping?",
+    "yext/question": "Do you offer free shipping?"
+  },
+  "entityType": "yext/faq",
+  "labels": []
+}

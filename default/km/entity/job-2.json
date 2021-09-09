@@ -1,0 +1,14 @@
+{
+  "$id": "job-2",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "yext/applicationUrl": "http://www.yext.com",
+    "yext/datePosted": "2021-09-09",
+    "yext/description": "Work with us today!",
+    "yext/landingPageUrl": "http://www.yext.com",
+    "yext/name": "Job 2"
+  },
+  "entityType": "yext/job",
+  "labels": []
+}

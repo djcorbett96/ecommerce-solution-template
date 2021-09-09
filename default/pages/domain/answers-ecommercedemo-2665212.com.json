@@ -1,0 +1,10 @@
+{
+  "$id": "answers-ecommercedemo-2665212.com",
+  "$schema": "https://schema.yext.com/config/pages/domain/v1",
+  "domainName": "answers-ecommercedemo-2665212.com",
+  "autoGenerateSitemap": true,
+  "domainAccess": false,
+  "pagesCDNAccess": true,
+  "answersIntegration": true,
+  "reverseProxy": false
+}

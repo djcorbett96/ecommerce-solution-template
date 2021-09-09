@@ -1,0 +1,18 @@
+{
+  "$id": "herald-jellied-math-5821b",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "E-commerce Search Experience",
+  "repoConfig": {
+    "targetRepoName": "${{eCommerceSearchExperience_targetRepo}}"
+  },
+  "domain": "answers-ecommercedemo-2665212.com",
+  "publishingConfig": {
+    "pinnedStagingBranchName": "refs/heads/master",
+    "pinnedProductionBranchName": "refs/heads/master",
+    "stagingCredentials": {
+      "username": "test",
+      "password": "test"
+    }
+  },
+  "features": []
+}

@@ -1,0 +1,30 @@
+{
+  "$id": "c_Product_Click_1631216677",
+  "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+  "conversionName": "Product Click",
+  "conversionType": "PURCHASE",
+  "conversionValueType": "SAME",
+  "conversionValueAmount": 10.0,
+  "conversionTerm": {
+    "startDate": "2021-09-09"
+  },
+  "conversionTrigger": {
+    "clickTriggers": [
+      {
+        "clickType": "ALL_CLICK_TYPES",
+        "entityFilter": {
+          "entityTypeIn": [
+            "yext/product"
+          ]
+        },
+        "media": [
+          {
+            "answersConfig": "e-commerce-search-experience"
+          }
+        ]
+      }
+    ],
+    "completionRate": 100.0
+  },
+  "enabled": true
+}

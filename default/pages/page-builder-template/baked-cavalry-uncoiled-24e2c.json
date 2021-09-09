@@ -1,0 +1,592 @@
+{
+  "$id": "baked-cavalry-uncoiled-24e2c",
+  "$schema": "https://schema.yext.com/config/pages/page-builder-template/v1",
+  "PageSetType": "TEMPLATE",
+  "Name": "Product Page Template",
+  "EntityTypeName": "product",
+  "PageSetConfig": {
+    "Analytics": {
+      "Cookies": {
+        "Script": "",
+        "Status": "ALWAYS_ON"
+      },
+      "Pixel": {
+        "Script": "",
+        "Status": "ALWAYS_ON"
+      }
+    },
+    "ContentMapping": {
+      "ModuleMappings": [
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "logo"
+              ],
+              "Sink": "logo"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "logoUrl"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link1Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "CONSTANT",
+              "Sink": "link1Url",
+              "StringValue": "www.yext.com"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link3Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link3Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link4Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link4Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link5Text",
+              "StringValue": "Header Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link5Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link6Text",
+              "StringValue": "Link to Finder"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link6Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "answersExperience",
+              "SubparameterContentMapEntries": [
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "configurationLabel",
+                  "StringValue": "PRODUCTION"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "searchResultsPageUrl",
+                  "StringValue": " "
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "sdkVersion",
+                  "StringValue": "1"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "placeholderText",
+                  "StringValue": "Search..."
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "autocompletePromptHeading",
+                  "StringValue": "You can ask your brand:"
+                }
+              ]
+            }
+          ],
+          "DefaultScss": ".module-navbar {\n  padding: 0;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  width: 100%;\n\n  @include media-breakpoint-up(md) {\n    width: auto;\n  }\n}\n\n.logo-image {\n  object-fit: contain;\n  height: 100%;\n  max-height: 26px;\n\n  @include media-breakpoint-up(md) {\n    max-height: 45px;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: 44px;\n  }\n}\n\n.navbar {\n  background-color: $gray-100;\n  @extend .navbar-light;\n\n  @include media-breakpoint-up(md) {\n    height: 70px;\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  \u0026-brand {\n    padding: 0;\n  }\n\n  \u0026-nav {\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 1rem;\n    width: 100%;\n\n    @include media-breakpoint-up(md) {\n      align-items: center;\n      padding-top: 0;\n    }\n  }\n\n  \u0026-toggler {\n    border: 0;\n    padding: 0;\n    margin-left: auto;\n  }\n}\n\n.links-div {\n  display: flex;\n  flex-direction: column;\n  order: 2;\n  padding-left: 0;\n  padding-right: 0;\n\n  @include media-breakpoint-up(md) {\n    flex-direction: row;\n    order: 0;\n\n    .nav-item:first-child() {\n      padding-left: 0;\n    }\n\n    .nav-item {\n      align-self: center;\n    }\n  }\n}\n\n.answers-div {\n  padding-left: 0;\n  padding-right: 0;\n  padding-bottom: .5rem;\n  margin-left: auto;\n\n  @include media-breakpoint-up(md) {\n    padding-bottom: 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  height: 44px;\n}\n\n.yxt-SearchBar {\n  height: 44px;\n\n  \u0026-input {\n    padding-right: var(--yxt-base-spacing)/2;\n  }\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "HufIm1Z-Rs",
+          "Scss": ".module-navbar {\n  padding: 0;\n}\n\n.header {\n  display: flex;\n  align-items: center;\n  width: 100%;\n\n  @include media-breakpoint-up(md) {\n    width: auto;\n  }\n}\n\n.logo-image {\n  object-fit: contain;\n  height: 100%;\n  max-height: 26px;\n\n  @include media-breakpoint-up(md) {\n    max-height: 45px;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: 44px;\n  }\n}\n\n.navbar {\n  background-color: $gray-100;\n  @extend .navbar-light;\n\n  @include media-breakpoint-up(md) {\n    height: 70px;\n    padding-left: 0;\n    padding-right: 0;\n  }\n\n  \u0026-brand {\n    padding: 0;\n  }\n\n  \u0026-nav {\n    padding-left: 0;\n    padding-right: 0;\n    padding-top: 1rem;\n    width: 100%;\n\n    @include media-breakpoint-up(md) {\n      align-items: center;\n      padding-top: 0;\n    }\n  }\n\n  \u0026-toggler {\n    border: 0;\n    padding: 0;\n    margin-left: auto;\n  }\n}\n\n.links-div {\n  display: flex;\n  flex-direction: column;\n  order: 2;\n  padding-left: 0;\n  padding-right: 0;\n\n  @include media-breakpoint-up(md) {\n    flex-direction: row;\n    order: 0;\n\n    .nav-item:first-child() {\n      padding-left: 0;\n    }\n\n    .nav-item {\n      align-self: center;\n    }\n  }\n}\n\n.answers-div {\n  padding-left: 0;\n  padding-right: 0;\n  padding-bottom: .5rem;\n  margin-left: auto;\n\n  @include media-breakpoint-up(md) {\n    padding-bottom: 0;\n  }\n}\n\n.yxt-SearchBar-form {\n  height: 44px;\n}\n\n.yxt-SearchBar {\n  height: 44px;\n\n  \u0026-input {\n    padding-right: var(--yxt-base-spacing)/2;\n  }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "name"
+              ],
+              "Sink": "name"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "richTextDescription"
+              ],
+              "Sink": "description"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "price"
+              ],
+              "Sink": "price"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "size"
+              ],
+              "Sink": "size"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "color"
+              ],
+              "Sink": "color"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "stockStatus"
+              ],
+              "Sink": "stockStatus"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "photoGallery"
+              ],
+              "Sink": "photoGallery"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link1Text",
+              "StringValue": "Buy now"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link1Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Text",
+              "StringValue": "Learn more"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Url",
+              "StringValue": "#"
+            }
+          ],
+          "DefaultScss": "$gray1: #f0f2f4;\n$gray2: #313a47;\n$gray3: #8896a1;\n$gray4: #313a3c;\n$primary-color: var(--primary);\n\n.module-product-details {\n  padding: 2rem 0;\n\n  \u0026__container{\n    margin-left: 0.5rem;\n  }\n}\n\n.product-images {\n  border: 1px solid $gray1;\n  padding: 20px 50px;\n  height: 100%;\n  @include media-breakpoint-up(sm) {\n    max-width: calc(50% - 1rem);\n  }\n\n  \u0026-container {\n    margin: auto;\n\n    @include media-breakpoint-up(sm) {\n      max-width: 250px;\n    }\n\n    @include media-breakpoint-up(md) {\n      max-width: 350px;\n    }\n  }\n\n  \u0026-main {\n    height: 100%;\n    width: 100%;\n    max-height: 500px;\n    margin: 0;\n\n    \u0026-image {\n      display: flex;\n      position: relative;\n\n      \u0026::after {\n        display: block;\n        content: \u0027\u0027;\n        padding-bottom: 100%;\n      }\n    }\n  }\n\n  \u0026-thumbnails {\n    display: flex;\n\n    \u0026-thumbnail {\n      display: none;\n      padding: 0;\n      margin: 0 3px;\n      position: relative;\n      border: 1px solid transparent;\n      max-width: 30%;\n\n      \u0026::after {\n        display: block;\n        content: \u0027\u0027;\n        padding-bottom: 100%;\n      }\n\n      \u0026.active {\n        display: flex;\n      }\n\n      img {\n        cursor: pointer;\n      }\n\n      \u0026.selected {\n        border: 1px solid $primary-color;\n        border-radius: 3px;\n      }\n    }\n  }\n\n  img {\n    width: 100%;\n    height: 100%;\n    object-fit: contain;\n    display: block;\n    position: absolute;\n  }\n}\n\n.lp-param-photoGallery {\n  margin-top: 20px;\n  justify-content: space-evenly;\n}\n\n.lp-param-name {\n  font-size: 32px;\n  color: $gray4;\n}\n\n.lp-product-right-column {\n  margin-left: 0.5rem;\n}\n\n.lp-product-summary {\n  padding-bottom: 4px;\n  display: flex;\n  white-space: nowrap;\n  margin-bottom: 0.25rem;\n\n  \u0026-size, \u0026-color {\n    font-size: 21px;\n    color: $gray2;\n    font-weight: bold;\n  }\n\n  \u0026-stockStatus {\n    font-size: 21px;\n    color: $gray2;\n    margin-left: 15px;\n  }\n\n  \u0026-divider {\n    border-left: 3px solid $gray2;\n    margin: 5px;\n  }\n}\n\n.lp-param-description {\n  font-size: 16px;\n  margin: 0.5rem 0;\n\n  p {\n    margin-block-end: 0;\n    margin-block-start: 0;\n  }\n}\n\n.lp-param-price {\n  color: $primary-color;\n  font-size: 32px;\n  margin-bottom: 0.5rem;\n\n  \u0026.mobile-view {\n    font-size: 21px;\n  }\n}\n\n.lp-param-buttons {\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n\n  @include media-breakpoint-up(sm) {\n    justify-content: normal;\n    flex-direction: unset;\n  }\n}\n\n.btn {\n  font-size: 16px;\n  width: 100%;\n  margin: 10px 0;\n  color: white;\n\n  \u0026:not(:last-child) {\n    @include media-breakpoint-up(sm) {\n      margin-right: 15px;\n    }\n  }\n\n  \u0026:last-child {\n    background-color: $gray4;\n    border-color: $gray4;\n  }\n\n  @include media-breakpoint-up(sm) {\n    width: auto;\n    margin: 0;\n  }\n}\n\n@mixin large-arrow {\n  border-bottom: 15px solid transparent;\n  border-top: 15px solid transparent;\n}\n\n@mixin small-arrow {\n  border-bottom: 10px solid transparent;\n  border-top: 10px solid transparent;\n}\n\n@mixin large-left-arrow {\n  border-right: 10px solid $gray3;\n}\n\n@mixin small-left-arrow {\n  border-right: 5px solid $gray3;\n}\n\n@mixin large-right-arrow {\n  border-left: 10px solid $gray3;\n}\n\n@mixin small-right-arrow {\n  border-left: 5px solid $gray3;\n}\n\n.lp-arrow {\n  width: 0;\n  height: 0;\n  opacity: 0.5;\n  @include large-arrow;\n\n  @include media-breakpoint-up(sm) {\n    @include small-arrow;\n  }\n  @include media-breakpoint-up(md) {\n    @include large-arrow;\n  }\n\n  \u0026.arrow-left {\n    @include large-left-arrow;\n\n    @include media-breakpoint-up(sm) {\n      @include small-left-arrow;\n    }\n    @include media-breakpoint-up(md) {\n      @include large-left-arrow;\n    }\n  }\n\n  \u0026.arrow-right {\n    @include large-right-arrow;\n\n    @include media-breakpoint-up(sm) {\n      @include small-right-arrow;\n    }\n    @include media-breakpoint-up(md) {\n      @include large-right-arrow;\n    }\n  }\n\n  \u0026.active {\n    opacity: 1;\n    cursor: pointer;\n  }\n\n  \u0026.hide {\n    display: none;\n  }\n}\n\n.mobile-view {\n  display: flex;\n  @include media-breakpoint-up(sm) {\n    display: none;\n  }\n}\n\n.desktop-view {\n  display: none;\n  @include media-breakpoint-up(sm) {\n    display: flex;\n  }\n}\n",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "HufIg36ARt",
+          "Scss": "$gray1: #f0f2f4;\n$gray2: #313a47;\n$gray3: #8896a1;\n$gray4: #313a3c;\n$primary-color: var(--primary);\n\n.module-product-details {\n  padding: 2rem 0;\n\n  \u0026__container{\n    margin-left: 0.5rem;\n  }\n}\n\n.product-images {\n  border: 1px solid $gray1;\n  padding: 20px 50px;\n  height: 100%;\n  @include media-breakpoint-up(sm) {\n    max-width: calc(50% - 1rem);\n  }\n\n  \u0026-container {\n    margin: auto;\n\n    @include media-breakpoint-up(sm) {\n      max-width: 250px;\n    }\n\n    @include media-breakpoint-up(md) {\n      max-width: 350px;\n    }\n  }\n\n  \u0026-main {\n    height: 100%;\n    width: 100%;\n    max-height: 500px;\n    margin: 0;\n\n    \u0026-image {\n      display: flex;\n      position: relative;\n\n      \u0026::after {\n        display: block;\n        content: \u0027\u0027;\n        padding-bottom: 100%;\n      }\n    }\n  }\n\n  \u0026-thumbnails {\n    display: flex;\n\n    \u0026-thumbnail {\n      display: none;\n      padding: 0;\n      margin: 0 3px;\n      position: relative;\n      border: 1px solid transparent;\n      max-width: 30%;\n\n      \u0026::after {\n        display: block;\n        content: \u0027\u0027;\n        padding-bottom: 100%;\n      }\n\n      \u0026.active {\n        display: flex;\n      }\n\n      img {\n        cursor: pointer;\n      }\n\n      \u0026.selected {\n        border: 1px solid $primary-color;\n        border-radius: 3px;\n      }\n    }\n  }\n\n  img {\n    width: 100%;\n    height: 100%;\n    object-fit: contain;\n    display: block;\n    position: absolute;\n  }\n}\n\n.lp-param-photoGallery {\n  margin-top: 20px;\n  justify-content: space-evenly;\n}\n\n.lp-param-name {\n  font-size: 32px;\n  color: $gray4;\n}\n\n.lp-product-right-column {\n  margin-left: 0.5rem;\n}\n\n.lp-product-summary {\n  padding-bottom: 4px;\n  display: flex;\n  white-space: nowrap;\n  margin-bottom: 0.25rem;\n\n  \u0026-size, \u0026-color {\n    font-size: 21px;\n    color: $gray2;\n    font-weight: bold;\n  }\n\n  \u0026-stockStatus {\n    font-size: 21px;\n    color: $gray2;\n    margin-left: 15px;\n  }\n\n  \u0026-divider {\n    border-left: 3px solid $gray2;\n    margin: 5px;\n  }\n}\n\n.lp-param-description {\n  font-size: 16px;\n  margin: 0.5rem 0;\n\n  p {\n    margin-block-end: 0;\n    margin-block-start: 0;\n  }\n}\n\n.lp-param-price {\n  color: $primary-color;\n  font-size: 32px;\n  margin-bottom: 0.5rem;\n\n  \u0026.mobile-view {\n    font-size: 21px;\n  }\n}\n\n.lp-param-buttons {\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n\n  @include media-breakpoint-up(sm) {\n    justify-content: normal;\n    flex-direction: unset;\n  }\n}\n\n.btn {\n  font-size: 16px;\n  width: 100%;\n  margin: 10px 0;\n  color: white;\n\n  \u0026:not(:last-child) {\n    @include media-breakpoint-up(sm) {\n      margin-right: 15px;\n    }\n  }\n\n  \u0026:last-child {\n    background-color: $gray4;\n    border-color: $gray4;\n  }\n\n  @include media-breakpoint-up(sm) {\n    width: auto;\n    margin: 0;\n  }\n}\n\n@mixin large-arrow {\n  border-bottom: 15px solid transparent;\n  border-top: 15px solid transparent;\n}\n\n@mixin small-arrow {\n  border-bottom: 10px solid transparent;\n  border-top: 10px solid transparent;\n}\n\n@mixin large-left-arrow {\n  border-right: 10px solid $gray3;\n}\n\n@mixin small-left-arrow {\n  border-right: 5px solid $gray3;\n}\n\n@mixin large-right-arrow {\n  border-left: 10px solid $gray3;\n}\n\n@mixin small-right-arrow {\n  border-left: 5px solid $gray3;\n}\n\n.lp-arrow {\n  width: 0;\n  height: 0;\n  opacity: 0.5;\n  @include large-arrow;\n\n  @include media-breakpoint-up(sm) {\n    @include small-arrow;\n  }\n  @include media-breakpoint-up(md) {\n    @include large-arrow;\n  }\n\n  \u0026.arrow-left {\n    @include large-left-arrow;\n\n    @include media-breakpoint-up(sm) {\n      @include small-left-arrow;\n    }\n    @include media-breakpoint-up(md) {\n      @include large-left-arrow;\n    }\n  }\n\n  \u0026.arrow-right {\n    @include large-right-arrow;\n\n    @include media-breakpoint-up(sm) {\n      @include small-right-arrow;\n    }\n    @include media-breakpoint-up(md) {\n      @include large-right-arrow;\n    }\n  }\n\n  \u0026.active {\n    opacity: 1;\n    cursor: pointer;\n  }\n\n  \u0026.hide {\n    display: none;\n  }\n}\n\n.mobile-view {\n  display: flex;\n  @include media-breakpoint-up(sm) {\n    display: none;\n  }\n}\n\n.desktop-view {\n  display: none;\n  @include media-breakpoint-up(sm) {\n    display: flex;\n  }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "headline",
+              "StringValue": "Related Products"
+            }
+          ],
+          "DefaultScss": "$spacer: 1rem;\n\n// Variables for description text truncation\n$lh: 22;\n$line-height: 22px;\n\n$max-height: 180px;\n$mh: 180;\n$max-num-lines: floor($mh / $lh);\n\n$max-height-tablet: 90px;\n$mht: 90;\n$max-num-lines-tablet: floor($mht / $lh);\n\n$max-height-desktop: 68px;\n$mhd: 68;\n$max-num-lines-desktop: floor($mhd / $lh);\n\n.module-container {\n  padding: ($spacer * 2) 15px;\n}\n\nul {\n  padding-inline-start: 0;\n  margin: 0 $spacer;\n}\n\n.row {\n  justify-content: center;\n}\n\n.headline {\n  font-size: 2em;\n  margin-bottom: $spacer;\n\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.item-col {\n  margin-bottom: $spacer;\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.section {\n  margin: $spacer $spacer 0;\n  font-size: 1em;\n  word-break: break-word;\n}\n\n.item {\n  height: 100%;\n  position: relative;\n  background-color: #f2f2f2;\n  text-align: left;\n  display: flex;\n  flex-direction: column;\n}\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: $spacer;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: normal;\n  word-break: break-word;\n}\n\n.subtitle {\n  font-size: 1.25em;\n  font-weight: normal;\n}\n\n.address {}\n\n.phone {}\n\n.email {}\n\n.description, .description-text {\n  max-height: $max-height;\n\n  @include media-breakpoint-up(sm) {\n    max-height: $max-height-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: $max-height-desktop;\n  }\n}\n\n.description-text {\n  -webkit-line-clamp: $max-num-lines;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n\n  @include media-breakpoint-up(sm) {\n    -webkit-line-clamp: $max-num-lines-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    -webkit-line-clamp: $max-num-lines-desktop;\n  }\n}\n\n.text-list {}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.cta {\n  font-size: 1em;\n  text-decoration: none;\n\n  \u0026-container {\n    display: flex;\n    align-items: flex-end;\n    flex: 1;\n  }\n}\n",
+          "Js": "",
+          "ListParamEntries": [
+            {
+              "ContentMapEntries": [
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "image"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "FIELD",
+                  "SelectedField": [
+                    "name"
+                  ],
+                  "Sink": "title"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "FIELD",
+                  "SelectedField": [
+                    "description"
+                  ],
+                  "Sink": "subtitle"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "none"
+                  ],
+                  "Sink": "address"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "none"
+                  ],
+                  "Sink": "phone"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "none"
+                  ],
+                  "Sink": "email"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "description",
+                  "StringValue": "Description Text"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "SelectedField": [
+                    "none"
+                  ],
+                  "Sink": "textList"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "infoLinkText",
+                  "StringValue": "Link Here"
+                },
+                {
+                  "ExternalEntityId": "",
+                  "InputType": "",
+                  "Sink": "infoLink",
+                  "StringValue": "#"
+                }
+              ],
+              "SavedSearchSource": {
+                "ExternalSearchId": "703565286"
+              },
+              "Sink": "items"
+            }
+          ],
+          "ModuleId": "HuoVPej2RG",
+          "Scss": "$spacer: 1rem;\n\n// Variables for description text truncation\n$lh: 22;\n$line-height: 22px;\n\n$max-height: 180px;\n$mh: 180;\n$max-num-lines: floor($mh / $lh);\n\n$max-height-tablet: 90px;\n$mht: 90;\n$max-num-lines-tablet: floor($mht / $lh);\n\n$max-height-desktop: 68px;\n$mhd: 68;\n$max-num-lines-desktop: floor($mhd / $lh);\n\n.module-container {\n  padding: ($spacer * 2) 15px;\n}\n\nul {\n  padding-inline-start: 0;\n  margin: 0 $spacer;\n}\n\n.row {\n  justify-content: center;\n}\n\n.headline {\n  font-size: 2em;\n  margin-bottom: $spacer;\n\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.item-col {\n  margin-bottom: $spacer;\n  @include media-breakpoint-down(sm) {\n    text-align: center;\n  }\n}\n\n.section {\n  margin: $spacer $spacer 0;\n  font-size: 1em;\n  word-break: break-word;\n}\n\n.item {\n  height: 100%;\n  position: relative;\n  background-color: #f2f2f2;\n  text-align: left;\n  display: flex;\n  flex-direction: column;\n}\n\n.image {\n  object-fit: contain;\n  max-width: 100%;\n  width: 100%;\n\n  \u0026-container {\n    flex-shrink: 0;\n  }\n}\n\n.content-container {\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  padding-bottom: $spacer;\n}\n\n.title {\n  font-size: 1.5em;\n  font-weight: normal;\n  word-break: break-word;\n}\n\n.subtitle {\n  font-size: 1.25em;\n  font-weight: normal;\n}\n\n.address {}\n\n.phone {}\n\n.email {}\n\n.description, .description-text {\n  max-height: $max-height;\n\n  @include media-breakpoint-up(sm) {\n    max-height: $max-height-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    max-height: $max-height-desktop;\n  }\n}\n\n.description-text {\n  -webkit-line-clamp: $max-num-lines;\n  display: -webkit-box;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n\n  @include media-breakpoint-up(sm) {\n    -webkit-line-clamp: $max-num-lines-tablet;\n  }\n\n  @include media-breakpoint-up(lg) {\n    -webkit-line-clamp: $max-num-lines-desktop;\n  }\n}\n\n.text-list {}\n\n.list-item {\n  margin-left: -5px;\n}\n\n.cta {\n  font-size: 1em;\n  text-decoration: none;\n\n  \u0026-container {\n    display: flex;\n    align-items: flex-end;\n    flex: 1;\n  }\n}\n"
+        },
+        {
+          "ContentMapEntries": [
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "caption",
+              "StringValue": "© 2018 Cobalt Design System. All Rights Reserved."
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link1Text",
+              "StringValue": "Privacy"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link1Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Text",
+              "StringValue": "Terms of Service"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link2Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link3Text",
+              "StringValue": "Sitemap"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link3Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link4Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link4Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link5Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link5Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link6Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link6Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link7Text",
+              "StringValue": "Footer Link"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "link7Url",
+              "StringValue": "#"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "facebookPageUrl"
+              ],
+              "Sink": "facebook"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "youtube"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "pinterest"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "Sink": "linkedin"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "twitterHandle"
+              ],
+              "Sink": "twitterHandle"
+            },
+            {
+              "ExternalEntityId": "",
+              "InputType": "",
+              "SelectedField": [
+                "instagramHandle"
+              ],
+              "Sink": "instagramHandle"
+            }
+          ],
+          "DefaultScss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}",
+          "Js": "",
+          "ListParamEntries": [],
+          "ModuleId": "H9nEP3p-_t",
+          "Scss": "$background-color: #e9ecef;\n$link-color: #212529;\n$mobile-breakpoint: 768px;\n\nbackground-color: $background-color;\npadding: 2rem 0;\n\n.footer-links {\n    display: flex;\n    justify-content: start;\n    padding-left: 0rem;\n\n    .footer-link {\n        padding: 0rem .5rem;\n        text-decoration: underline;\n        color: $link-color;\n\n        \u0026:first-child {\n            padding-left: 0px;\n        }\n\n        \u0026:hover {\n            text-decoration: none;\n        }\n    }\n}\n\n.col:empty {\n    display: none;\n}\n\n.caption-text {\n    padding-top: 1rem;\n    justify-content: start;\n}\n\n@media (max-width: $mobile-breakpoint) {\n    text-align: center;\n\n    .caption-text {\n        justify-content: center;\n    }\n\n    .footer-links {\n        flex-direction: column;\n        align-items: center;\n\n        .footer-link {\n            padding: 0.5rem 0rem;\n        }\n    }\n}\n\n.social-icon {\n    align-items: center;\n    display: flex;\n    justify-content: center;\n    height: 45px;\n    width: 45px;\n\n    .icon-img {\n        filter: invert(1); // make it black\n    }\n}"
+        }
+      ],
+      "ThemeMapping": {
+        "ContentMapEntries": [
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "SelectedField": [
+              "name"
+            ],
+            "Sink": "pageTitle"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "SelectedField": [
+              "description"
+            ],
+            "Sink": "metaDescription"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "Sink": "metaKeywords"
+          },
+          {
+            "ExternalEntityId": "",
+            "InputType": "",
+            "Sink": "conversionTracking",
+            "StringValue": ""
+          }
+        ],
+        "DefaultScss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n",
+        "Js": "",
+        "Scss": "$web-font-path: \"https://fonts.googleapis.com/css?family\u003dSource+Sans+Pro:300,400,700\" !default;\r\n@import url($web-font-path);\r\n\r\n\r\n$white:    #fff !default;\r\n$gray-100: #f8f9fa !default;\r\n$gray-200: #e9ecef !default;\r\n$gray-300: #dee2e6 !default;\r\n$gray-400: #ced4da !default;\r\n$gray-500: #adb5bd !default;\r\n$gray-600: #868e96 !default;\r\n$gray-700: #495057 !default;\r\n$gray-800: #373a3c !default;\r\n$gray-900: #212529 !default;\r\n$black:    #000 !default;\r\n\r\n$blue:    #2780E3 !default;\r\n$indigo:  #6610f2 !default;\r\n$purple:  #613d7c !default;\r\n$pink:    #e83e8c !default;\r\n$red:     #FF0039 !default;\r\n$orange:  #f0ad4e !default;\r\n$yellow:  #FF7518 !default;\r\n$green:   #3FB618 !default;\r\n$teal:    #20c997 !default;\r\n$cyan:    #9954BB !default;\r\n\r\n$primary:       $blue !default;\r\n$secondary:     $gray-800 !default;\r\n$success:       $green !default;\r\n$info:          $cyan !default;\r\n$warning:       $yellow !default;\r\n$danger:        $red !default;\r\n$light:         $gray-100 !default;\r\n$dark:          $gray-800 !default;\r\n\r\n// Options\r\n\r\n$enable-rounded: false !default;\r\n\r\n// Body\r\n\r\n$body-color:    $gray-800 !default;\r\n\r\n// Fonts\r\n\r\n$font-family-sans-serif: \"Segoe UI\", \"Source Sans Pro\", Calibri, Candara, Arial, sans-serif !default;\r\n\r\n$font-size-base: 0.9375rem !default;\r\n\r\n$headings-font-weight:   300 !default;\r\n\r\n// Navbar\r\n\r\n$navbar-dark-hover-color:           rgba($white,1) !default;\r\n\r\n$navbar-light-hover-color:          rgba($black,.9) !default;\r\n\r\n// Alerts\r\n\r\n$alert-border-width:                0 !default;\r\n\r\n// Progress bars\r\n\r\n$progress-height:               0.5rem !default;\r\n\r\n@import \"bootstrap\";\r\n\r\n\r\nbody {\r\n  -webkit-font-smoothing: antialiased;\r\n}\r\n\r\n"
+      }
+    },
+    "DesignParameterConfig": {
+      "BodyFont": {
+        "Alignment": "",
+        "Color": "",
+        "FontFamily": "",
+        "FontWeight": 0,
+        "LineHeight": 0,
+        "TextScale": "",
+        "TextTransform": "",
+        "Uppercase": false
+      },
+      "Buttons": {
+        "Font": {
+          "Alignment": "",
+          "Color": "",
+          "FontFamily": "",
+          "FontWeight": 0,
+          "LineHeight": 0,
+          "TextScale": "",
+          "TextTransform": "",
+          "Uppercase": false
+        },
+        "LetterSpacing": "",
+        "Padding": "",
+        "Radius": 0,
+        "Rounded": false,
+        "Uppercase": false
+      },
+      "Colors": {
+        "Background": "",
+        "Primary": "",
+        "Secondary": ""
+      },
+      "HeaderFont": {
+        "Alignment": "",
+        "Color": "",
+        "FontFamily": "",
+        "FontWeight": 0,
+        "LineHeight": 0,
+        "TextScale": "",
+        "TextTransform": "",
+        "Uppercase": false
+      },
+      "Other": {
+        "MaxWidth": 0,
+        "SectionSpacing": "",
+        "Spacer": 0
+      }
+    },
+    "FooterHtml": "",
+    "HeaderHtml": "",
+    "ModuleInstances": [
+      {
+        "DisplayNameOverride": "",
+        "Id": "HufIm1Z-Rs",
+        "Module": "nav_bar",
+        "Version": 38
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "HufIg36ARt",
+        "Module": "product_details",
+        "Version": 5
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "HuoVPej2RG",
+        "Module": "item_list_i",
+        "Version": 21
+      },
+      {
+        "DisplayNameOverride": "",
+        "Id": "H9nEP3p-_t",
+        "Module": "footer",
+        "Version": 22
+      }
+    ],
+    "Path": "",
+    "Schema": "",
+    "TemplateConfig": {},
+    "Theme": "cosmo",
+    "ThemeVersion": 1
+  }
+}

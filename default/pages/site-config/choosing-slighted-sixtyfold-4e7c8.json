@@ -1,0 +1,11 @@
+{
+  "$id": "choosing-slighted-sixtyfold-4e7c8",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Product Landing Page Template",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "baked-cavalry-uncoiled-24e2c"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$id": "location-1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "yext/address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "61 9th Avenue",
+      "postalCode": "10011",
+      "region": "NY"
+    },
+    "yext/addressHidden": false,
+    "yext/name": "Location 1",
+    "yext/timezone": "America/New_York"
+  },
+  "entityType": "yext/location",
+  "labels": []
+}

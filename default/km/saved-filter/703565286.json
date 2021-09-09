@@ -1,0 +1,15 @@
+{
+  "$id": "703565286",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "All Products",
+  "filter": {
+    "entityType": [
+      {
+        "entityTypeId": [
+          "yext/product"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}
